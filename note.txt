@@ -1,0 +1,16 @@
+php artisan make:resource Api/PostResource لعمل روسورس
+
+
+تنزيل مكتبات vue بشكل احترافي
+npm install --save vue-router vuex
+
+تصدير داتا بيز تاعك
+ 
+ تنزيل jwt Api
+ composer require tymon/jwt-auth
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+php artisan jwt:secret
+
+
+httpclient
+composer require guzzlehttp/guzzle
